@@ -1,0 +1,269 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #eee;
+}
+
+/* navbar */
+
+.sidebar {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../img/img1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom-border {
+  border-bottom: 1px solid #eee;
+}
+
+.sidebar .active {
+  background-color: #f44336;
+  border-radius: 7px;
+  box-shadow: 2px 5px 20px #111;
+  transition: all .3s ease;
+}
+
+.sidebar .active:hover {
+  background-color: #f66436;
+  transform: translateY(-5px);
+}
+
+.sidebar-link {
+  transition: all .3s ease;
+}
+
+.sidebar-link:hover {
+  background-color: #444;
+  border-radius: 7px;
+}
+
+
+.search {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #999;
+  transition: all .4s ease;
+}
+
+.search:focus {
+  background: transparent;
+  box-shadow: none;
+  border-bottom: 2px solid #dc3545;
+}
+
+.search-btn {
+  border-radius: 50%;
+  padding: 10px 16px;
+  transition: all .4s ease;
+}
+
+.search-btn:hover {
+  background-color: #eee;
+  transform: translateY(-1px);
+}
+
+.icon-notify {
+  position: relative;
+}
+
+.icon-notify-link::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 15px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #f44336;
+}
+.card-sec{
+  margin-left: 250px;
+  margin-top:10px;
+}
+.card-sec .card-body i{
+  font-size:50px;
+}
+.card-sec p{
+  font-size: 25px;
+  font-weight: 20px;
+}
+.card-sec .card:hover{
+  transition:all .3s ease;
+  transform:scale(1.02);
+  box-shadow:2px 2px 5px 5px rgba(202, 190, 190, 0.404);
+}
+.sec1{
+  margin-left: 250px;
+  margin-top:10px;
+  margin-bottom: 60px;
+}
+h3{
+  font-size: 25px;
+}
+.sec1 .tab{
+  margin-right: 20px;
+  width:580px;
+}
+.sec1 .tab td{
+  border-color: rgb(138, 135, 135);
+}
+.sec1 .tab th{
+  border-bottom: rgb(138, 135, 135);
+}
+.sec1 nav{
+  margin-left: 200px;
+}
+.sec1 .li .active{
+  background-color: rgb(98, 201, 233);
+}
+.sec1 .n2{
+  margin-left: 170px;
+}
+.sec2{
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+.sec2 .ca{
+  border-left: 3px solid orangered!important;
+}
+.sec2 .card-title{
+  font-size:25px;
+}
+.sec2 .c{
+  margin-top:60px!important;
+}
+.sec2 .t:hover{
+  background:rgb(69, 204, 214)!important;
+}
+.sec3{
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+.sec3 img{
+  width:65px;
+  height:auto;
+  margin-left: 10px;
+  border-radius:10px;
+}
+footer{
+  margin-left: 250px;
+  margin-bottom:10px;
+}
+
+
+@media (max-width: 576px) { 
+
+  .card-sec{
+    margin-left: 10px;
+    margin-top:10px;
+  }
+  .card-sec .card{
+    margin-left:5px!important;
+    margin-right: 20px!important;
+  }
+  
+  .sec1{
+    margin-left: 5px;
+    margin-top:10px;
+    margin-bottom: 60px;
+  }
+  .sec1 table{
+    margin-left:10px!important;
+    margin-right:5px!important;
+    width:95%!important;
+  }
+  .sec2{
+    margin-left:5px!important;
+    margin-bottom: 50px;
+  }
+  .sec2 .card{
+    margin-left:5px!important;
+  }
+  .sec3{
+    margin-left: 5px;
+    margin-bottom: 50px;
+  }
+  .sec3 .card{
+    margin-left:5px!important;
+  }
+  footer{
+    
+      margin-left: 5px;
+      margin-bottom:10px;
+    
+  }
+}
+
+
+@media (max-width: 768px) { 
+  .card-sec .card{
+    
+    width:95%!important;
+  } 
+  .card-sec .cl{
+    margin-left:30px!important;
+    width:95%!important;
+  }
+  .sec1 table{
+    margin-left:40px!important;
+    margin-right:5px!important;
+    width:90%!important;
+  }
+  .sec2 .card{
+    margin-left:40px!important;
+    width:90%!important;
+  }
+  .sec2 h3{
+    margin-left:40px!important;
+  }
+  .sec3 .card{
+    margin-left:40px!important;
+    width:90%!important;
+  }
+  .sec3 h3{
+    margin-left:40px!important;
+  }
+  .sec3 .b{
+    width:90%!important;
+    margin-left:5px!important;
+    height:200px!important;
+  }
+}
+
+@media (max-width: 992px) { 
+  .card-sec .card{
+    width:95%!important;
+  } 
+  .card-sec .cl{
+    margin-left:30px!important;
+    width:95%!important;
+  }
+  .sec1 table{
+   
+    margin-right:5px!important;
+    width:95%!important;
+  }
+ 
+ 
+}
+
+
+@media (max-width: 1200px) {
+
+  .card-sec .card{
+    margin-left: 0px!important;
+    padding-left: 0px!important;
+    width:85%!important;
+  } 
+  .sec1 table{
+    margin-left: 0px;
+    width:75%!important;
+  }
+  .sec3 .b{
+    width:90%!important;
+    height:200px!important;
+  }
+  
+}
