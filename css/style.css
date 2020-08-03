@@ -147,6 +147,9 @@ h3{
   margin-left: 10px;
   border-radius:10px;
 }
+.sec3 .box:hover{
+  background-color:rgb(104, 98, 98)!important;
+}
 footer{
   margin-left: 250px;
   margin-bottom:10px;
