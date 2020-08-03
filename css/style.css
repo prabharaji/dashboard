@@ -159,11 +159,11 @@ footer{
 @media (max-width: 576px) { 
 
   .card-sec{
-    margin-left: 10px;
+    margin-left: 40px;
     margin-top:10px;
   }
   .card-sec .card{
-    margin-left:5px!important;
+    margin-left:0px!important;
     margin-right: 20px!important;
   }
   
@@ -180,6 +180,7 @@ footer{
   .sec2{
     margin-left:5px!important;
     margin-bottom: 50px;
+    width:90%;
   }
   .sec2 .card{
     margin-left:5px!important;
@@ -187,9 +188,11 @@ footer{
   .sec3{
     margin-left: 5px;
     margin-bottom: 50px;
+    width:90%;
   }
   .sec3 .card{
     margin-left:5px!important;
+   
   }
   footer{
     
@@ -202,30 +205,28 @@ footer{
 
 @media (max-width: 768px) { 
   .card-sec .card{
-    
     width:95%!important;
   } 
   .card-sec .cl{
-    margin-left:30px!important;
+    margin-left: 40px!important;
     width:95%!important;
+    
   }
   .sec1 table{
     margin-left:40px!important;
     margin-right:5px!important;
     width:90%!important;
   }
-  .sec2 .card{
-    margin-left:40px!important;
-    width:90%!important;
-  }
   .sec2 h3{
     margin-left:40px!important;
   }
-  .sec3 .card{
+  .sec2{
     margin-left:40px!important;
-    width:90%!important;
   }
   .sec3 h3{
+    margin-left:40px!important;
+  }
+  .sec3{
     margin-left:40px!important;
   }
   .sec3 .b{
@@ -236,37 +237,77 @@ footer{
 }
 
 @media (max-width: 992px) { 
+  
   .card-sec .card{
+    margin-left: 20px!important;
     width:95%!important;
   } 
   .card-sec .cl{
-    margin-left:30px!important;
+    margin-left:80px!important;
     width:95%!important;
   }
+  
   .sec1 table{
    
-    margin-right:5px!important;
-    width:95%!important;
+    margin-left:80px!important;
+    width: 100%!important;
   }
- 
+  .sec2 .card{
+    margin-left:80px!important;
+    width:85%!important;
+  }
+  .sec2 .ca{
+    margin-left:10px!important;
+  }
+  .sec3 h3{
+    margin-left: 60px!important;
+  }
+  .sec3 .card{
+    margin-left:60px!important;
+    width:85%!important;
+  }
+  .sec3 .ca{
+    margin-left:5px!important;
+  }
+  .sec3 .b{
+    margin-left:3px!important;
+    width:70%!important;
+  }
  
 }
 
 
 @media (max-width: 1200px) {
 
+  .card-sec{
+    margin-left:200px!important;
+  }
   .card-sec .card{
-    margin-left: 0px!important;
-    padding-left: 0px!important;
+  
     width:85%!important;
   } 
+  .sec1{
+    margin-left:200px!important;
+  }
   .sec1 table{
     margin-left: 0px;
     width:75%!important;
+  }
+  .sec2{
+    margin-left:200px!important;
+  }
+  .sec2 .ca{
+    width:90%!important;
+  }
+  .sec3{
+    margin-left:200px!important;
+  }
+  .sec3 .ca{
+    width:90%!important;
   }
   .sec3 .b{
     width:90%!important;
     height:200px!important;
   }
-  
+
 }
